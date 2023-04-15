@@ -36,7 +36,7 @@ def main():
 
     # Lecctura de datos
     #Datos = st.text_input("Ingrese los valores : N P K Temp Hum pH lluvia:")
-    N = st.text_input("Nitrógeno:")
+    N = st.text_input("Nitrógeno: Valor entre 60 a 90")
     P = st.text_input("Fósforo:")
     K = st.text_input("Potasio:")
     Temp = st.text_input("Temperatura:")
