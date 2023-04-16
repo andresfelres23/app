@@ -37,12 +37,12 @@ def main():
     # Lecctura de datos
     #Datos = st.text_input("Ingrese los valores : N P K Temp Hum pH lluvia:")
     N = st.text_input("Nitrógeno: Valor entre 60 a 90")
-    P = st.text_input("Fósforo:")
-    K = st.text_input("Potasio:")
-    Temp = st.text_input("Temperatura:")
-    Hum = st.text_input("Humedad:")
-    pH = st.text_input("pH:")
-    rain = st.text_input("Lluvia:")
+    P = st.text_input("Fósforo: Valor entre 30 a 60")
+    K = st.text_input("Potasio: Valor entre 30 a 60")
+    Temp = st.text_input("Temperatura: Valor entre 12 a 30")
+    Hum = st.text_input("Humedad: Valor entre 70 a 90")
+    pH = st.text_input("pH: Valor entre 4 a 8")
+    rain = st.text_input("Lluvia: Valor entre 0 a 300")
     
     # El botón predicción se usa para iniciar el procesamiento
     if st.button("Predicción :"): 
